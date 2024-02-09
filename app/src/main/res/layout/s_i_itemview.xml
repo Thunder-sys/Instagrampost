@@ -35,11 +35,14 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="Lata mangeshkar,Udit Narayan,Gurd....." />
+
         </LinearLayout>
         
         <Button
             android:layout_width="100dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:text="Follow"
+            android:background="@color/black"/>
 
     </LinearLayout>
 
@@ -47,4 +50,43 @@
         android:layout_width="match_parent"
         android:layout_height="356dp"
         android:background="@drawable/morpankh"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="300dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/like" />
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/comment" />
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/share"
+            />
+
+        <ImageButton
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@tools:sample/avatars" />
+    </LinearLayout>
+
+
 </LinearLayout>
