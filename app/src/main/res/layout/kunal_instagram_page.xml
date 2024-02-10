@@ -9,10 +9,15 @@
             android:layout_width="match_parent"
             android:layout_height="49dp">
 
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="224dp"
                 android:orientation="vertical"
@@ -23,13 +28,41 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
+                    android:textStyle="bold"
                     android:text="zindagi.gulzar.h" />
 
-                <TextView
+
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:src="@drawable/music"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Lata Mangeshkar, Udit Narayan, Gurd." />
+                </LinearLayout>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="92dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="36dp"
+                android:textColor="@color/white"
+                android:background="@drawable/shap"
+                android:text="Follow" />
+
+            <ImageButton
+                android:layout_width="21dp"
+                android:layout_marginLeft="14dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/thrredot" />
 
         </LinearLayout>
 
@@ -40,6 +73,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="horizontal"
         android:layout_height="41dp">
 
         <ImageButton
