@@ -14,7 +14,6 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="left"
-          
             android:src="@tools:sample/avatars" />
 
         <LinearLayout
@@ -55,7 +54,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-
         android:orientation="horizontal">
 
         <ImageButton
@@ -63,21 +61,21 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_weight="1"
-            android:background="@drawable/imageslike" />
+            android:background="@drawable/heart" />
 
         <ImageButton
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_weight="1"
-            android:background="@drawable/comme" />
+            android:background="@drawable/comment" />
 
         <ImageButton
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_weight="1"
-            android:background="@drawable/sharess"
+            android:background="@drawable/share"
             />
 
         <ImageButton
@@ -85,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_weight="1"
-            android:background="@drawable/saves"
+            android:background="@drawable/save"
             />
     </LinearLayout>
 
