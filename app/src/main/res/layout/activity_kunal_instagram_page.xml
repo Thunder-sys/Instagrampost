@@ -15,7 +15,7 @@
 
             <ImageView
                 android:layout_width="48dp"
-                android:id="@+id/kunal_instagram_logo"
+                android:id="@+id/kulogo"
                 android:layout_height="48dp" />
 
         </LinearLayout>
@@ -73,8 +73,8 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="match_parent"
         android:id="@+id/kunal_reel_image"
+        android:layout_width="match_parent"
         android:layout_height="399dp"
         android:background="@drawable/morpankh" />
 
