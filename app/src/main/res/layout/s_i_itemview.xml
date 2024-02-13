@@ -90,10 +90,9 @@
             android:layout_width="24dp"
             android:layout_height="17dp"
             android:layout_weight="1"
-            android:background="@drawable/save"
-            />
-    </LinearLayout>
+            android:background="@drawable/save" />
 
+    </LinearLayout>
 
 
 </LinearLayout>
