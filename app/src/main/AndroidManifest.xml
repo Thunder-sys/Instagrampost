@@ -12,9 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Instagrampost"
         tools:targetApi="31">
-
         <activity
-            android:name=".KunalAdhiraInsta.kunal_instagram_page"
+            android:name=".Yash.MainActivity"
             android:exported="false" />
         <activity
             android:name=".KhushiInsta.KhushiInsta"
@@ -26,7 +25,7 @@
             android:name=".KunalAdhiraInsta.KunalInsta"
             android:exported="false" />
         <activity
-            android:name=".Yash.MainActivity"
+            android:name=".Yash.front_page"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

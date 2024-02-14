@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
@@ -51,8 +52,8 @@ class kunal_instagram_adapterclass(var activity:Activity,var kunallist:ArrayList
     private class ViewHolder(row:View){
         var username = row.findViewById<TextView>(R.id.Kunal_username)
         var song = row.findViewById<TextView>(R.id.kunal_music)
-        var logo = row.findViewById<TextView>(R.id.kulogo)
-        var image = row.findViewById<TextView>(R.id.kunal_reel_image)
+        var logo = row.findViewById<ImageView>(R.id.kulogo)
+        var image = row.findViewById<ImageView>(R.id.kunal_reel_image)
         var likecount = row.findViewById<TextView>(R.id.kunal_like_count)
         var commet = row.findViewById<TextView>(R.id.kunal_commet_show_text)
         var commetcount = row.findViewById<TextView>(R.id.kunal_commet_count)

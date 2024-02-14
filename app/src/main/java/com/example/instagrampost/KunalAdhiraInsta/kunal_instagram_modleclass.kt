@@ -2,9 +2,9 @@ package com.example.instagrampost.KunalAdhiraInsta
 
 class kunal_instagram_modleclass {
     var kunal_userimage = 0
+    var kunal_postimage = 0
     var kunal_username = ""
     var kunal_songname = ""
-    var kunal_postimage = 0
     var kunal_likes_count = ""
     var kunal_comment = ""
     var kunal_comment_count = ""
