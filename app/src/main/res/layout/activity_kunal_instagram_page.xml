@@ -17,11 +17,10 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/kulogo"
                 android:layout_width="48dp"
+                android:padding="5dp"
                 android:layout_height="48dp"
                 app:shapeAppearanceOverlay="@style/roundImageicon"
-
                 android:background="@drawable/im15"
-
                 />
 
         </LinearLayout>
