@@ -19,7 +19,7 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:shapeAppearanceOverlay="@style/roundImageicon"
-                android:scaleType="centerCrop"
+
                 android:background="@drawable/im15"
 
                 />
@@ -84,7 +84,6 @@
         android:layout_width="400dp"
         android:id="@+id/kunal_reel_image"
         android:layout_height="399dp"
-        android:scaleType="centerCrop"
 
         />
 
