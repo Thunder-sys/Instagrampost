@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.getSystemService
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.instagrampost.R
@@ -48,6 +49,15 @@ class MyAdapterInsta(var context: Activity,var myitem:ArrayList<MyInstaModel>):B
         viewHolder.commentt?.text=myitem.comment
         viewHolder.comment?.text=myitem.committime
         viewHolder.daysd?.text=myitem.commtime
+
+        view?.setOnClickListener(){
+            Toast.makeText(context,"you enter on this ${myitem.username}",Toast.LENGTH_SHORT).show()
+        }
+
+        view?.setOnClickListener(){
+            Toast.makeText(context,"you are click on this ${myitem.imglogo}",Toast.LENGTH_SHORT).show()
+        }
+        
 
         return view as View
     }
