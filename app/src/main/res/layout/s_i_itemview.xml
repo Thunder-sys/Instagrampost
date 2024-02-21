@@ -64,21 +64,21 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <ImageButton
+        <TextView
             android:id="@+id/like"
             android:layout_width="24dp"
             android:layout_height="17dp"
             android:layout_weight="1"
             android:background="@drawable/heart" />
 
-        <ImageButton
+        <TextView
             android:id="@+id/comment"
             android:layout_width="24dp"
             android:layout_height="17dp"
             android:layout_weight="1"
             android:background="@drawable/comment" />
 
-        <ImageButton
+        <TextView
             android:id="@+id/share"
             android:layout_width="24dp"
             android:layout_height="17dp"
@@ -86,7 +86,7 @@
             android:background="@drawable/share"
             />
 
-        <ImageButton
+        <TextView
             android:id="@+id/save"
             android:layout_width="24dp"
             android:layout_height="17dp"
@@ -94,6 +94,33 @@
             android:background="@drawable/save"
             />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/nlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 500 like"
+        android:textSize="24dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ncomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 comment"
+        android:textSize="24dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 50 views"
+        android:textSize="24dp">
+    </TextView>
+
+
+
 
 
 
