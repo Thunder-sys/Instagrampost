@@ -13,7 +13,7 @@ class ShakshiInsta : AppCompatActivity() {
         var inlist=findViewById<ListView>(R.id.mlist)
 
         var inadapter=s_ins_Adapterclass(this,getMyData())
-
+        inlist.adapter=inadapter
     }
 
     private fun getMyData(): ArrayList<s_ins_modelclass> {
